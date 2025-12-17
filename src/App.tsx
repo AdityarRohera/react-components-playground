@@ -1,6 +1,7 @@
 // import FrequentlyAskedQuestions from "./components/FAQ/FrequentlyAskedQuestions"
 // import CountDownTimer from "./components/CountDownTimer/CountDownTimer"
-import ModalOverlay from "./components/ModalOverlay/ModalOverlay"
+// import ModalOverlay from "./components/ModalOverlay/ModalOverlay"
+import ShoppingList from "./components/ShoppingList/ShoppingList";
 
 function App() {
 
@@ -8,9 +9,10 @@ function App() {
     <div className="">
       {/* <FrequentlyAskedQuestions/> */}
       {/* <CountDownTimer/> */}
-      <ModalOverlay/>
+      {/* <ModalOverlay/> */}
+      <ShoppingList/>
     </div>
   )
 }
 
-export default App
+export default App;
