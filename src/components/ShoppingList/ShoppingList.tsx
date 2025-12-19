@@ -28,9 +28,9 @@ function ShoppingList() {
     const [input , setInput] = useState('');
     const [searchData , setSearchData] = useState<any>([]);
     const [todo , setTodo] = useState<any>([]);
-    console.log(todo);
+    // console.log(todo);
 
-    const debouncedValue = useDebounce(input , 100);
+    const debouncedValue = useDebounce(input , 2000);
 
     const changeHandler = async(e : any) => {
         setInput(e.target.value);

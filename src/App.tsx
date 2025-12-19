@@ -1,7 +1,8 @@
 // import FrequentlyAskedQuestions from "./components/FAQ/FrequentlyAskedQuestions"
 // import CountDownTimer from "./components/CountDownTimer/CountDownTimer"
 // import ModalOverlay from "./components/ModalOverlay/ModalOverlay"
-import ShoppingList from "./components/ShoppingList/ShoppingList";
+// import ShoppingList from "./components/ShoppingList/ShoppingList";
+import DataTable from "./components/DataTable/DataTable";
 
 function App() {
 
@@ -10,7 +11,8 @@ function App() {
       {/* <FrequentlyAskedQuestions/> */}
       {/* <CountDownTimer/> */}
       {/* <ModalOverlay/> */}
-      <ShoppingList/>
+      {/* <ShoppingList/> */}
+      <DataTable/>
     </div>
   )
 }
